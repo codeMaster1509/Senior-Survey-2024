@@ -35,22 +35,22 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: '7 < CPI < 8',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#4B0D2B',
                     data: [18, 54, 0]
                 },
                 {
                     label: '8 < CPI < 9',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#92235B',
                     data: [22, 85, 0]
                 },
                 {
                     label: 'CPI < 7',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#D270A0',
                     data: [13, 27, 0]
                 },
                 {
                     label: 'CPI > 9',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#FCD9EA',
                     data: [8, 59, 1]
                 }
             ]
@@ -62,22 +62,22 @@ document.addEventListener('DOMContentLoaded', function() {
         datasets: [
             {
                 label: '7 < CPI < 8',
-                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                backgroundColor: '#4B0D2B',
                 data: [17, 41, 10, 4]
             },
             {
                 label: '8 < CPI < 9',
-                backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                backgroundColor: '#92235B',
                 data: [34, 57, 8, 7]
             },
             {
                 label: 'CPI < 7',
-                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                backgroundColor: '#D270A0',
                 data: [11, 14, 11, 3]
             },
             {
                 label: 'CPI > 9',
-                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                backgroundColor: '#FCD9EA',
                 data: [13, 46, 5, 3]
             }
         ]
@@ -91,12 +91,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     datasets: [
                         {
                             label: 'Female',
-                            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                            backgroundColor: '#F9BEDB',
                             data: [22, 21, 10, 7 ]
                         },
                         {
                             label: 'Male',
-                            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                            backgroundColor: '#791647',
                             data: [53, 136, 26, 10 ]
                         },
         
@@ -110,12 +110,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     datasets: [
                         {
                             label: 'Female',
-                            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                            backgroundColor: '#F9BEDB',
                             data: [26, 8, 1, 0, 26 ]
                         },
                         {
                             label: 'Male',
-                            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                            backgroundColor: '#791647',
                             data: [26, 38, 10, 4, 139 ]
                         },
         
@@ -129,12 +129,12 @@ document.addEventListener('DOMContentLoaded', function() {
     datasets: [
         {
             label: 'Female',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            backgroundColor: '#F9BEDB',
             data: [21, 24, 13, 3, 0 ]
         },
         {
             label: 'Male',
-            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            backgroundColor: '#791647',
             data: [127, 59, 17, 8, 4 ]
         },
 
@@ -148,12 +148,12 @@ document.addEventListener('DOMContentLoaded', function() {
     datasets: [
         {
             label: 'Female',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            backgroundColor: '#F9BEDB',
             data: [45, 2, 2, 12 ]
         },
         {
             label: 'Male',
-            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            backgroundColor: '791647',
             data: [119, 14, 21, 65]
         },
 
@@ -166,22 +166,22 @@ document.addEventListener('DOMContentLoaded', function() {
         datasets: [
             {
                 label: '7 < CPI < 8',
-                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                backgroundColor: '#4B0D2B',
                 data: [6, 5, 27, 33]
             },
             {
                 label: '8 < CPI < 9',
-                backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                backgroundColor: '#92235B',
                 data: [19, 4, 41, 37]
             },
             {
                 label: 'CPI < 7',
-                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                backgroundColor: '#D270A0',
                 data: [6, 5, 10, 19]
             },
             {
                 label: 'CPI > 9',
-                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                backgroundColor: '#FCD9EA',
                 data: [12, 5, 33, 17]
             }
         ]
@@ -193,22 +193,22 @@ document.addEventListener('DOMContentLoaded', function() {
         datasets: [
             {
                 label: '7 < CPI < 8',
-                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                backgroundColor: '#4B0D2B',
                 data: [4, 28, 29, 3, 4, 3]
             },
             {
                 label: '8 < CPI < 9',
-                backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                backgroundColor: '#92235B',
                 data: [8, 42, 37, 7, 9, 0]
             },
             {
                 label: 'CPI < 7',
-                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                backgroundColor: '#D270A0',
                 data: [3, 13, 16, 3, 2, 2]
             },
             {
                 label: 'CPI > 9',
-                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                backgroundColor: '#FCD9EA',
                 data: [6, 36, 9, 8, 6, 1]
             }
         ]

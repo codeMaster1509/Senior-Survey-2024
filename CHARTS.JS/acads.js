@@ -38,107 +38,107 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: 'Aerospace Engineering',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
-                    data: [2, 7, 12, 5 ]
+                    backgroundColor: '#072844',
+                    data: [2, 7, 12, 5]
                 },
                 {
                     label: 'Biosciences and Bioengineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
-                    data: [0, 0, 3, 1 ]
+                    backgroundColor: '#154669',
+                    data: [0, 0, 3, 1]
                 },
                 {
                     label: 'CTARA',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
-                    data: [ 0, , 0, 1]
+                    backgroundColor: '#30648A',
+                    data: [0, 0, 0, 1]
                 },
                 {
                     label: 'Chemical Engineering',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [6, 5, 6, 24]
                 },
                 {
                     label: 'Chemistry',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#BBCDDB',
                     data: [1, 0, 1, 0]
                 },
                 {
                     label: 'Civil Engineering',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [2, 11, 4, 1]
                 },
                 {
                     label: 'Computer Science & Engineering',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#0C3654',
                     data: [2, 7, 17, 17]
                 },
                 {
                     label: 'Earth Sciences',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#205378',
                     data: [1, 0, 4, 1]
                 },
                 {
                     label: 'Economics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#4C7B9D',
                     data: [0, 2, 4, 0]
                 },
                 {
                     label: 'Electrical Engineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#91AFC4',
                     data: [4, 9, 18, 20]
                 },
                 {
                     label: 'Energy Science and Engineering',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#1F4905',
                     data: [1, 2, 3, 2]
                 },
                 {
                     label: 'Environmental Science and Engineering (ESED)',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#366A16',
                     data: [0, 2, 2, 1]
                 },
                 {
                     label: 'IDC',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#5C9639',
                     data: [0, 1, 3, 1]
                 },
                 {
                     label: 'IEOR',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#90C46F',
                     data: [0, 1, 1, 2]
                 },
                 {
                     label: 'Management',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#C7E8B4',
                     data: [0, 1, 1, 0]
                 },
                 {
                     label: 'Mathematics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#1A3907',
                     data: [3, 4, 3, 2]
                 },
                 {
                     label: 'Mechanical Engineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
-                    data: [ 9, 12, 24, 8]
+                    backgroundColor: '#2C5C0E',
+                    data: [9, 12, 24, 8]
                 },
                 {
                     label: 'Metallurgical Engineering & Materials Science',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#4B8428',
                     data: [4, 14, 5, 2]
                 },
                 {
                     label: 'Other',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#72A752',
                     data: [0, 0, 2, 0]
                 },
                 {
                     label: 'Physics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#AED596',
                     data: [5, 4, 4, 1]
                 },
                 {
                     label: 'Systems and Control Engineering',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#DBF0CF',
                     data: [0, 0, 1, 0]
                 }
             ]
@@ -150,22 +150,22 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: '7 < CPI < 8',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#072B44',
                     data: [6, 24, 29, 10, 3]
                 },
                 {
                     label: '8 < CPI < 9',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#205378',
                     data: [4, 6, 29, 50, 19]
                 },
                 {
                     label: 'CPI < 7',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [13, 14, 9, 3, 1]
                 },
                 {
                     label: 'CPI > 9',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [0, 1, 5, 22, 41]
                 }
             ]
@@ -177,22 +177,22 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: '7 < CPI < 8',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#072B44',
                     data: [1, 3, 19, 29, 19]
                 },
                 {
                     label: '8 < CPI < 9',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#205378',
                     data: [3, 3, 15, 52, 34]
                 },
                 {
                     label: 'CPI < 7',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [0, 3, 9, 12, 16]
                 },
                 {
                     label: 'CPI > 9',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [0, 2, 9, 29, 29]
                 }
             ]
@@ -204,22 +204,22 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: '7 < CPI < 8',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#072B44',
                     data: [30, 21, 3, 17]
                 },
                 {
                     label: '8 < CPI < 9',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#205378',
                     data: [50, 21, 3, 32]
                 },
                 {
                     label: 'CPI < 7',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [10, 13, 5, 12]
                 },
                 {
                     label: 'CPI > 9',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [43, 10, 1, 15]
                 }
             ]
@@ -232,107 +232,107 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: 'Aerospace Engineering',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#072844',
                     data: [13, 5, 0, 8 ]
                 },
                 {
                     label: 'Biosciences and Bioengineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#154669',
                     data: [3, 0, 0, 0 ]
                 },
                 {
                     label: 'CTARA',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#30648A',
                     data: [ 0, 1, 0, 0]
                 },
                 {
                     label: 'Chemical Engineering',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [6, 8, 1, 6]
                 },
                 {
                     label: 'Chemistry',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#BBCDDB',
                     data: [1, 1, 0, 0]
                 },
                 {
                     label: 'Civil Engineering',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [8, 7, 0, 3]
                 },
                 {
                     label: 'Computer Science & Engineering',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#0C3654',
                     data: [20, 4, 14, 4]
                 },
                 {
                     label: 'Earth Sciences',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#205378',
                     data: [5, 0, 1, 0]
                 },
                 {
                     label: 'Economics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#4C7B9D',
                     data: [2, 2, 1, 1]
                 },
                 {
                     label: 'Electrical Engineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#91AFC4',
                     data: [23, 8, 0, 20]
                 },
                 {
                     label: 'Energy Science and Engineering',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#1F4905',
                     data: [7, 2, 0, 0]
                 },
                 {
                     label: 'Environmental Science and Engineering (ESED)',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#366A16',
                     data: [4, 0, 1, 0]
                 },
                 {
                     label: 'IDC',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#5C9639',
                     data: [4, 1, 0, 0]
                 },
                 {
                     label: 'IEOR',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#90C46F',
                     data: [2, 1, 0, 1]
                 },
                 {
                     label: 'Management',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#C7E8B4',
                     data: [0, 1, 0, 0]
                 },
                 {
                     label: 'Mathematics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#1A3907',
                     data: [6, 0, 0, 6]
                 },
                 {
                     label: 'Mechanical Engineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#2C5C0E',
                     data: [ 17, 16, 3, 17]
                 },
                 {
                     label: 'Metallurgical Engineering & Materials Science',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#4B8428',
                     data: [3, 16, 1, 5]
                 },
                 {
                     label: 'Other',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#72A752',
                     data: [1, 0, 0, 1]
                 },
                 {
                     label: 'Physics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#AED596',
                     data: [8, 2, 0, 5]
                 },
                 {
                     label: 'Systems and Control Engineering',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#DBF0CF',
                     data: [1, 0, 0, 0]
                 }
             ]
@@ -344,107 +344,107 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: 'Aerospace Engineering',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#072844',
                     data: [1, 8, 7, 9, 1 ]
                 },
                 {
                     label: 'Biosciences and Bioengineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#154669',
                     data: [0, 0, 0, 3, 1 ]
                 },
                 {
                     label: 'CTARA',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#30648A',
                     data: [ 0, 0, 0, 1, 0]
                 },
                 {
                     label: 'Chemical Engineering',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [0, 8, 4, 6, 3]
                 },
                 {
                     label: 'Chemistry',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#BBCDDB',
                     data: [0, 0, 0, 1, 1]
                 },
                 {
                     label: 'Civil Engineering',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [0, 8, 1, 7, 2]
                 },
                 {
                     label: 'Computer Science & Engineering',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#0C3654',
                     data: [3, 7, 11, 9, 3]
                 },
                 {
                     label: 'Earth Sciences',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#205378',
                     data: [0, 0, 1, 5, 0]
                 },
                 {
                     label: 'Economics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#4C7B9D',
                     data: [0, 2, 2, 1, 1]
                 },
                 {
                     label: 'Electrical Engineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#91AFC4',
                     data: [0, 12, 13, 18, 8]
                 },
                 {
                     label: 'Energy Science and Engineering',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#1F4905',
                     data: [0, 1, 0, 6, 2]
                 },
                 {
                     label: 'Environmental Science and Engineering (ESED)',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#366A16',
                     data: [0, 2, 0, 3, 0]
                 },
                 {
                     label: 'IDC',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#5C9639',
                     data: [0, 0, 0, 5, 0]
                 },
                 {
                     label: 'IEOR',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#90C46F',
                     data: [0, 0, 1, 3, 0]
                 },
                 {
                     label: 'Management',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#C7E8B4',
                     data: [0, 1, 0, 1, 0]
                 },
                 {
                     label: 'Mathematics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#1A3907',
                     data: [1, 2, 3, 5, 1]
                 },
                 {
                     label: 'Mechanical Engineering',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#2C5C0E',
                     data: [ 2, 14, 18, 15, 3]
                 },
                 {
                     label: 'Metallurgical Engineering & Materials Science',
-                    backgroundColor: 'rgba(153, 102, 255, 0.5)',
+                    backgroundColor: '#4B8428',
                     data: [0, 6, 4, 3, 2]
                 },
                 {
                     label: 'Other',
-                    backgroundColor: 'rgba(255, 159, 64, 0.5)',
+                    backgroundColor: '#72A752',
                     data: [0, 0, 0, 2, 0]
                 },
                 {
                     label: 'Physics',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#AED596',
                     data: [1, 4, 7, 2, 1]
                 },
                 {
                     label: 'Systems and Control Engineering',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#DBF0CF',
                     data: [0, 0, 1, 0, 0]
                 }
             ]
@@ -457,22 +457,22 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [
                 {
                     label: '7 < CPI < 8',
-                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    backgroundColor: '#072B44',
                     data: [5, 10, 21, 22, 13]
                 },
                 {
                     label: '8 < CPI < 9',
-                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    backgroundColor: '#205378',
                     data: [7, 15, 28, 38, 20]
                 },
                 {
                     label: 'CPI < 7',
-                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    backgroundColor: '#6C92AE',
                     data: [3, 16, 9, 10, 2]
                 },
                 {
                     label: 'CPI > 9',
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    backgroundColor: '#E0E3E6',
                     data: [3, 19, 23, 18, 6]
                 }
             ]
@@ -484,107 +484,107 @@ document.addEventListener('DOMContentLoaded', function() {
     datasets: [
         {
             label: 'Aerospace Engineering',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            backgroundColor: '#072844',
             data: [1, 3, 9, 6, 7 ]
         },
         {
             label: 'Biosciences and Bioengineering',
-            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            backgroundColor: '#154669',
             data: [1, 1, 1, 1, 0 ]
         },
         {
             label: 'CTARA',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: '#30648A',
             data: [ 0, 0, 0, 0, 1]
         },
         {
             label: 'Chemical Engineering',
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: '#6C92AE',
             data: [3, 4, 7, 5, 2]
         },
         {
             label: 'Chemistry',
-            backgroundColor: 'rgba(153, 102, 255, 0.5)',
+            backgroundColor: '#BBCDDB',
             data: [0, 0, 1, 1, 0]
         },
         {
             label: 'Civil Engineering',
-            backgroundColor: 'rgba(255, 159, 64, 0.5)',
+            backgroundColor: '#E0E3E6',
             data: [3, 0, 6, 7, 2]
         },
         {
             label: 'Computer Science & Engineering',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: '#0C3654',
             data: [2, 7, 10, 9, 5]
         },
         {
             label: 'Earth Sciences',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            backgroundColor: '#205378',
             data: [0, 0, 2, 1, 3]
         },
         {
             label: 'Economics',
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: '#4C7B9D',
             data: [0, 0, 2, 1, 3]
         },
         {
             label: 'Electrical Engineering',
-            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            backgroundColor: '#91AFC4',
             data: [4, 18, 11, 14, 4]
         },
         {
             label: 'Energy Science and Engineering',
-            backgroundColor: 'rgba(153, 102, 255, 0.5)',
+            backgroundColor: '#1F4905',
             data: [0, 1, 4, 3, 1]
         },
         {
             label: 'Environmental Science and Engineering (ESED)',
-            backgroundColor: 'rgba(255, 159, 64, 0.5)',
+            backgroundColor: '#366A16',
             data: [0, 0, 2, 2, 1]
         },
         {
             label: 'IDC',
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: '#5C9639',
             data: [0, 2, 3, 0, 0]
         },
         {
             label: 'IEOR',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: '#90C46F',
             data: [0, 1, 1, 2, 0]
         },
         {
             label: 'Management',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            backgroundColor: '#C7E8B4',
             data: [0, 0, 0, 1, 1]
         },
         {
             label: 'Mathematics',
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: '#1A3907',
             data: [1, 4, 2, 4, 1]
         },
         {
             label: 'Mechanical Engineering',
-            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            backgroundColor: '#2C5C0E',
             data: [ 1, 10, 15, 20, 6]
         },
         {
             label: 'Metallurgical Engineering & Materials Science',
-            backgroundColor: 'rgba(153, 102, 255, 0.5)',
+            backgroundColor: '#4B8428',
             data: [0, 2, 6, 3, 4]
         },
         {
             label: 'Other',
-            backgroundColor: 'rgba(255, 159, 64, 0.5)',
+            backgroundColor: '#72A752',
             data: [0, 0, 0, 1, 1]
         },
         {
             label: 'Physics',
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: '#AED596',
             data: [0, 7, 2, 5, 1]
         },
         {
             label: 'Systems and Control Engineering',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: '#DBF0CF',
             data: [1, 0, 0, 0, 0]
         }
     ]

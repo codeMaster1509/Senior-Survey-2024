@@ -203,20 +203,26 @@
         
             <p><span class="big-q">Q</span>How many people have you dated/been in a relationship with during your time at IITB?    </p>
             <p class="responses">Total Respondents - 278</p>
-            <div class="chart">
-                <canvas id="doughnut15"></canvas>
-                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
-                <script src="Charts/pers15.js"></script>
+            <div class="container">
+                <!-- Chart 4: How many people have you dated/been in . -->
+                <div class="filters">
+                    <button class="legend" data-dataset="0">FEMALE</button>
+                    <button class="legend" data-dataset="1">MALE</button>
+                    <button class="reset-button" data-dataset="2">Reset</button>
+                </div>
+                <canvas id="chartContainer5"></canvas>
             </div>
         
             <p><span class="big-q">Q</span>On average, how frequently did you have sex?    </p>
             <p class="responses">Total Respondents - 267</p>
-            <div class="chart">
-                <canvas id="doughnut16"></canvas>
-                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
-                <script src="Charts/pers16.js"></script>
+            <div class="container">
+                <!-- Chart 5. On average, how frequently did you have sex? 🧐 -->
+                <div class="filters">
+                    <button class="legend" data-dataset="0">FEMALE</button>
+                    <button class="legend" data-dataset="1">MALE</button>
+                    <button class="reset-button" data-dataset="2">Reset</button>
+                </div>
+                <canvas id="chartContainer6"></canvas>
             </div>
         
             <p><span class="big-q">Q</span>If at all you consume alcohol, at what point did you start/have it for the first time?     </p>
@@ -231,7 +237,7 @@
                     <button class="legend" data-dataset="3">CPI&gt;9</button>
                     <button class="reset-button" data-dataset="4">Reset</button>
                 </div>
-                <canvas id="chartContainer5"></canvas>
+                <canvas id="chartContainer7"></canvas>
             </div>
         
             <p><span class="big-q">Q</span>How often do you consume alcohol?     </p>
@@ -246,7 +252,7 @@
                     <button class="legend" data-dataset="3">CPI&gt;9</button>
                     <button class="reset-button" data-dataset="4">Reset</button>
                 </div>
-                <canvas id="chartContainer6"></canvas>
+                <canvas id="chartContainer8"></canvas>
             </div>
         
             <p><span class="big-q">Q</span> If at all you smoke, at what point did you start?     </p>

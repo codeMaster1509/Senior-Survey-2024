@@ -7,7 +7,7 @@
     font-style: normal;
 }
 
-#chartContainer1, #chartContainer2, #chartContainer3, #chartContainer4, #chartContainer5, #chartContainer6,#chartContainer7{
+#chartContainer1, #chartContainer2, #chartContainer3, #chartContainer4, #chartContainer5, #chartContainer6,#chartContainer7,#chartContainer8{
     max-width: 100%;
     max-height: 75%;
     display: flex;

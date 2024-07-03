@@ -120,9 +120,47 @@ document.addEventListener('DOMContentLoaded', function() {
                         },
         
                     ]
-                },           
+                },      
+                
+                
+        // chart 5
+{
+    labels: ['0', '1', '2', '3-5', '>5'],
+    datasets: [
+        {
+            label: 'Female',
+            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            data: [21, 24, 13, 3, 0 ]
+        },
+        {
+            label: 'Male',
+            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            data: [127, 59, 17, 8, 4 ]
+        },
 
-        // Chart 5
+    ]
+},         
+
+
+// chart 6
+{
+    labels: ['Never', 'Quite often, have a profile on every app', 'Rarely', 'Tried for the fun of it'],
+    datasets: [
+        {
+            label: 'Female',
+            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            data: [45, 2, 2, 12 ]
+        },
+        {
+            label: 'Male',
+            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            data: [119, 14, 21, 65]
+        },
+
+    ]
+}, 
+
+        // Chart 7
     {
         labels: ['Before coming to IIT', 'During my first year at IIT', 'I never consumed alcohol', 'Post my first year at IIT'],
         datasets: [
@@ -149,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     },
 
-        // Chart 6
+        // Chart 8
     {
         labels: ['Every month', 'Never', 'Occasionally', 'Once a week', 'Only once', 'Very often'],
         datasets: [

@@ -59,7 +59,7 @@
             </div>
 
             <p><span class="big-q">Q</span>  If you are getting a UG degree, did you pursue and complete Minors or Honors? </p>
-            <p class="responses">Total Respondents<b style="font-size:x-large;">*</b> - 231</p>
+            <p class="responses">Total Respondents<b style="font-size:x-large;"></b> - 231</p>
             <div class="chart">
                 <canvas id="doughnut2"></canvas>
                 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
@@ -73,41 +73,29 @@
                 <!-- Chart 1: What is your CPI?  -->
                 <div class="filters">
                     <button class="legend" data-dataset="0">Aerospace Engineering</button>
-                    <button class="legend" data-dataset="1">Biosciences and Bioengineering</button>
-                    <button class="legend" data-dataset="2">CTARA</button>
-                    <button class="legend" data-dataset="3">Chemical Engineering</button>
-                    <button class="legend" data-dataset="4">Chemistry</button>
-                    <button class="legend" data-dataset="5">Civil Engineering</button>
-                    <button class="legend" data-dataset="6">Computer Science & Engineering</button>
-                    <button class="legend" data-dataset="7">Earth Sciences</button>
-                    <button class="legend" data-dataset="8">Economics</button>
-                    <button class="legend" data-dataset="9">Electrical Engineering</button>
-                    <button class="legend" data-dataset="10">Energy Science and Engineering</button>
-                    <button class="legend" data-dataset="11">Environmental Science and Engineering (ESED)</button>
-                    <button class="legend" data-dataset="12">IDC</button>
-                    <button class="legend" data-dataset="13">IEOR</button>
-                    <button class="legend" data-dataset="14">Management</button>
-                    <button class="legend" data-dataset="15">Mathematics</button>
-                    <button class="legend" data-dataset="16">Mechanical Engineering</button>
-                    <button class="legend" data-dataset="17">Metallurgical Engineering & Materials Science</button>
-                    <button class="legend" data-dataset="18">Other</button>
-                    <button class="legend" data-dataset="19">Physics</button>
-                    <button class="legend" data-dataset="20">Systems and Control Engineering</button>
-                    <button class="reset-button" data-dataset="21">Reset</button>
+                    <button class="legend" data-dataset="1">Chemical Engineering</button>
+                    <button class="legend" data-dataset="2">Civil Engineering</button>
+                    <button class="legend" data-dataset="3">Computer Science & Engineering</button>
+                    <button class="legend" data-dataset="4">Electrical Engineering</button>
+                    <button class="legend" data-dataset="5">Mechanical Engineering</button>
+                    <button class="legend" data-dataset="6">Metallurgical Engineering & Materials Science</button>
+                    <button class="legend" data-dataset="7">Other</button>
+                    <button class="reset-button" data-dataset="8">Reset</button>
                 </div>
                 <canvas id="chartContainer1"></canvas>
             </div>
 
             <p><span class="big-q">Q</span>  How satisfied are you with your CPI? </p>
             <p class="responses">Total Respondents - 291</p>
+            <p class="responses">1 - Dissatisfied, <b style="font-size:x-large;"></b> 5 - Satisfied </p>
+
             <div class="container">
                 <!-- Chart 2: How satisfied are you with your CPI? -->
                 <div class="filters">
-                    <button class="legend" data-dataset="2">CPI&lt;7</button>
-                    <button class="legend" data-dataset="0">7&lt;CPI&lt;8</button>
-                    <button class="legend" data-dataset="1">8&lt;CPI&lt;9</button>
-                    
-                    <button class="legend" data-dataset="3">CPI&gt;9</button>
+                    <button class="legend" data-dataset="0" style="background-color: #002744;">7&lt;CPI&lt;8</button>
+                    <button class="legend" data-dataset="1" style="background-color: #094e80;">8&lt;CPI&lt;9</button>
+                    <button class="legend" data-dataset="2" style="background-color: #4889b7;">CPI&lt;7</button>
+                    <button class="legend" data-dataset="3" style="background-color: #c3ccd5;">CPI&gt;9</button>
                     <button class="reset-button" data-dataset="4">Reset</button>
         
                 </div>
@@ -116,15 +104,15 @@
 
             <p><span class="big-q">Q</span>  How important a role do you think one's CPI plays in internships/placements? </p>
             <p class="responses">Total Respondents - 289</p>
+            <p class="responses">1 - Least Important, <b style="font-size:x-large;"></b> 5 - Very Important </p>
             <div class="container">
                 <!-- Chart 3: How important a role do you think one’s CPI plays in internships/placements? -->
                 <!-- <h1>2. How important a role do you think one’s CPI plays in internships/placements?</h1> -->
                 <div class="filters">
-                    <button class="legend" data-dataset="2">CPI&lt;7</button>
-                    <button class="legend" data-dataset="0">7&lt;CPI&lt;8</button>
-                    <button class="legend" data-dataset="1">8&lt;CPI&lt;9</button>
-                    
-                    <button class="legend" data-dataset="3">CPI&gt;9</button>
+                    <button class="legend" data-dataset="0" style="background-color: #002744;">7&lt;CPI&lt;8</button>
+                    <button class="legend" data-dataset="1" style="background-color: #094e80;">8&lt;CPI&lt;9</button>
+                    <button class="legend" data-dataset="2" style="background-color: #4889b7;">CPI&lt;7</button>
+                    <button class="legend" data-dataset="3" style="background-color: #c3ccd5;">CPI&gt;9</button>
                     <button class="reset-button" data-dataset="4">Reset</button>
                 </div>
                 <canvas id="chartContainer3"></canvas>
@@ -135,11 +123,10 @@
             <div class="container">
                 <!-- Chart 4: Are you interested in pursuing core? -->
                 <div class="filters">
-                    <button class="legend" data-dataset="2">CPI&lt;7</button>
-                    <button class="legend" data-dataset="0">7&lt;CPI&lt;8</button>
-                    <button class="legend" data-dataset="1">8&lt;CPI&lt;9</button>
-                    
-                    <button class="legend" data-dataset="3">CPI&gt;9</button>
+                    <button class="legend" data-dataset="0" style="background-color: #002744;">7&lt;CPI&lt;8</button>
+                    <button class="legend" data-dataset="1" style="background-color: #094e80;">8&lt;CPI&lt;9</button>
+                    <button class="legend" data-dataset="2" style="background-color: #4889b7;">CPI&lt;7</button>
+                    <button class="legend" data-dataset="3" style="background-color: #c3ccd5;">CPI&gt;9</button>
                     <button class="reset-button" data-dataset="4">Reset</button>
                 </div>
                 <canvas id="chartContainer4"></canvas>
@@ -151,27 +138,14 @@
                 <!-- Chart 5:Are you interested in pursuing core?  🧐 -->
                 <div class="filters">
                     <button class="legend" data-dataset="0">Aerospace Engineering</button>
-                    <button class="legend" data-dataset="1">Biosciences and Bioengineering</button>
-                    <button class="legend" data-dataset="2">CTARA</button>
-                    <button class="legend" data-dataset="3">Chemical Engineering</button>
-                    <button class="legend" data-dataset="4">Chemistry</button>
-                    <button class="legend" data-dataset="5">Civil Engineering</button>
-                    <button class="legend" data-dataset="6">Computer Science & Engineering</button>
-                    <button class="legend" data-dataset="7">Earth Sciences</button>
-                    <button class="legend" data-dataset="8">Economics</button>
-                    <button class="legend" data-dataset="9">Electrical Engineering</button>
-                    <button class="legend" data-dataset="10">Energy Science and Engineering</button>
-                    <button class="legend" data-dataset="11">Environmental Science and Engineering (ESED)</button>
-                    <button class="legend" data-dataset="12">IDC</button>
-                    <button class="legend" data-dataset="13">IEOR</button>
-                    <button class="legend" data-dataset="14">Management</button>
-                    <button class="legend" data-dataset="15">Mathematics</button>
-                    <button class="legend" data-dataset="16">Mechanical Engineering</button>
-                    <button class="legend" data-dataset="17">Metallurgical Engineering & Materials Science</button>
-                    <button class="legend" data-dataset="18">Other</button>
-                    <button class="legend" data-dataset="19">Physics</button>
-                    <button class="legend" data-dataset="20">Systems and Control Engineering</button>
-                    <button class="reset-button" data-dataset="21">Reset</button>
+                    <button class="legend" data-dataset="1">Chemical Engineering</button>
+                    <button class="legend" data-dataset="2">Civil Engineering</button>
+                    <button class="legend" data-dataset="3">Computer Science & Engineering</button>
+                    <button class="legend" data-dataset="4">Electrical Engineering</button>
+                    <button class="legend" data-dataset="5">Mechanical Engineering</button>
+                    <button class="legend" data-dataset="6">Metallurgical Engineering & Materials Science</button>
+                    <button class="legend" data-dataset="7">Other</button>
+                    <button class="reset-button" data-dataset="8">Reset</button>
                 </div>
                 <canvas id="chartContainer5"></canvas>
             </div>
@@ -189,30 +163,17 @@
             <p><span class="big-q">Q</span>  Did you attend classes? </p>
             <p class="responses">Total Respondents - 290</p>
             <div class="container">
-                <!-- Chart 3:Did you attend classes?  -->
+                <!-- Chart 6:Did you attend classes?  -->
                 <div class="filters">
                     <button class="legend" data-dataset="0">Aerospace Engineering</button>
-                    <button class="legend" data-dataset="1">Biosciences and Bioengineering</button>
-                    <button class="legend" data-dataset="2">CTARA</button>
-                    <button class="legend" data-dataset="3">Chemical Engineering</button>
-                    <button class="legend" data-dataset="4">Chemistry</button>
-                    <button class="legend" data-dataset="5">Civil Engineering</button>
-                    <button class="legend" data-dataset="6">Computer Science & Engineering</button>
-                    <button class="legend" data-dataset="7">Earth Sciences</button>
-                    <button class="legend" data-dataset="8">Economics</button>
-                    <button class="legend" data-dataset="9">Electrical Engineering</button>
-                    <button class="legend" data-dataset="10">Energy Science and Engineering</button>
-                    <button class="legend" data-dataset="11">Environmental Science and Engineering (ESED)</button>
-                    <button class="legend" data-dataset="12">IDC</button>
-                    <button class="legend" data-dataset="13">IEOR</button>
-                    <button class="legend" data-dataset="14">Management</button>
-                    <button class="legend" data-dataset="15">Mathematics</button>
-                    <button class="legend" data-dataset="16">Mechanical Engineering</button>
-                    <button class="legend" data-dataset="17">Metallurgical Engineering & Materials Science</button>
-                    <button class="legend" data-dataset="18">Other</button>
-                    <button class="legend" data-dataset="19">Physics</button>
-                    <button class="legend" data-dataset="20">Systems and Control Engineering</button>
-                    <button class="reset-button" data-dataset="21">Reset</button>
+                    <button class="legend" data-dataset="1">Chemical Engineering</button>
+                    <button class="legend" data-dataset="2">Civil Engineering</button>
+                    <button class="legend" data-dataset="3">Computer Science & Engineering</button>
+                    <button class="legend" data-dataset="4">Electrical Engineering</button>
+                    <button class="legend" data-dataset="5">Mechanical Engineering</button>
+                    <button class="legend" data-dataset="6">Metallurgical Engineering & Materials Science</button>
+                    <button class="legend" data-dataset="7">Other</button>
+                    <button class="reset-button" data-dataset="8">Reset</button>
                 </div>
                 <canvas id="chartContainer6"></canvas>
             </div>
@@ -265,15 +226,15 @@
 
             <p><span class="big-q">Q</span>  Have you been able to find a balance between academic commitments and extracurricular activities?  </p>
             <p class="responses">Total Respondents - 290</p>
+            <p class="responses">1 - Not able to, <b style="font-size:x-large;"></b> 5 - Fully able to  </p>
             <div class="container">
-                <!-- Chart 6: Have you been able to find a balance between academic commitments and extracurricular activities? -->
+                <!-- Chart 7: Have you been able to find a balance between academic commitments and extracurricular activities? -->
                 
                 <div class="filters">
-                    <button class="legend" data-dataset="2">CPI&lt;7</button>
-                    <button class="legend" data-dataset="0">7&lt;CPI&lt;8</button>
-                    <button class="legend" data-dataset="1">8&lt;CPI&lt;9</button>
-                    
-                    <button class="legend" data-dataset="3">CPI&gt;9</button>
+                    <button class="legend" data-dataset="0" style="background-color: #002744;">7&lt;CPI&lt;8</button>
+                    <button class="legend" data-dataset="1" style="background-color: #094e80;">8&lt;CPI&lt;9</button>
+                    <button class="legend" data-dataset="2" style="background-color: #4889b7;">CPI&lt;7</button>
+                    <button class="legend" data-dataset="3" style="background-color: #c3ccd5;">CPI&gt;9</button>
                     <button class="reset-button" data-dataset="4">Reset</button>
                 </div>
                 <canvas id="chartContainer7"></canvas>
@@ -282,30 +243,17 @@
 
             <!-- dept cut -->
             <div class="container">
-                <!-- Chart 4: Have you been able to find a balance between academic commitments and extracurricular activities? -->
+                <!-- Chart 8: Have you been able to find a balance between academic commitments and extracurricular activities? -->
                 <div class="filters">
                     <button class="legend" data-dataset="0">Aerospace Engineering</button>
-                    <button class="legend" data-dataset="1">Biosciences and Bioengineering</button>
-                    <button class="legend" data-dataset="2">CTARA</button>
-                    <button class="legend" data-dataset="3">Chemical Engineering</button>
-                    <button class="legend" data-dataset="4">Chemistry</button>
-                    <button class="legend" data-dataset="5">Civil Engineering</button>
-                    <button class="legend" data-dataset="6">Computer Science & Engineering</button>
-                    <button class="legend" data-dataset="7">Earth Sciences</button>
-                    <button class="legend" data-dataset="8">Economics</button>
-                    <button class="legend" data-dataset="9">Electrical Engineering</button>
-                    <button class="legend" data-dataset="10">Energy Science and Engineering</button>
-                    <button class="legend" data-dataset="11">Environmental Science and Engineering (ESED)</button>
-                    <button class="legend" data-dataset="12">IDC</button>
-                    <button class="legend" data-dataset="13">IEOR</button>
-                    <button class="legend" data-dataset="14">Management</button>
-                    <button class="legend" data-dataset="15">Mathematics</button>
-                    <button class="legend" data-dataset="16">Mechanical Engineering</button>
-                    <button class="legend" data-dataset="17">Metallurgical Engineering & Materials Science</button>
-                    <button class="legend" data-dataset="18">Other</button>
-                    <button class="legend" data-dataset="19">Physics</button>
-                    <button class="legend" data-dataset="20">Systems and Control Engineering</button>
-                    <button class="reset-button" data-dataset="21">Reset</button>
+                    <button class="legend" data-dataset="1">Chemical Engineering</button>
+                    <button class="legend" data-dataset="2">Civil Engineering</button>
+                    <button class="legend" data-dataset="3">Computer Science & Engineering</button>
+                    <button class="legend" data-dataset="4">Electrical Engineering</button>
+                    <button class="legend" data-dataset="5">Mechanical Engineering</button>
+                    <button class="legend" data-dataset="6">Metallurgical Engineering & Materials Science</button>
+                    <button class="legend" data-dataset="7">Other</button>
+                    <button class="reset-button" data-dataset="8">Reset</button>
                 </div>
                 <canvas id="chartContainer8"></canvas>
             </div>

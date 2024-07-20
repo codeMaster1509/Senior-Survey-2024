@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const chartData = [
         //chart 1
         {
-            labels: ['Female', 'Male','Thats the most stupid question influenced by the western world. Didnt expect this question from such institution of such a wonderful country. There is no identification. I am a male' ],
+            labels: ['Female', 'Male',' Non-Binary' ],
             datasets: [
                 {
                     label: '7 < CPI < 8',
@@ -144,17 +144,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // chart 6
 {
-    labels: ['Never', 'Quite often, have a profile on every app', 'Rarely', 'Tried for the fun of it'],
+    labels: ['A few times a month', 'A few times a semester', 'Daily', 'Every week', 'I have never had sex', 'Prefer not to answer'],
     datasets: [
         {
             label: 'Female',
             backgroundColor: '#F9BEDB',
-            data: [45, 2, 2, 12 ]
+            data: [5, 4, 2, 7, 29, 9 ]
         },
         {
             label: 'Male',
-            backgroundColor: '791647',
-            data: [119, 14, 21, 65]
+            backgroundColor: '#791647',
+            data: [10, 16, 2, 18, 116, 48]
         },
 
     ]

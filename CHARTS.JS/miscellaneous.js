@@ -187,11 +187,11 @@ document.addEventListener('DOMContentLoaded', function() {
             backgroundColor: '#E2C24E',
             data: [2, 11, 8, 2, 0]
         },
-        {
-            label: 'nan',
-            backgroundColor: '#F9E187',
-            data: [0, 2, 3, 1, 1]
-        },
+        // {
+        //     label: 'nan',
+        //     backgroundColor: '#F9E187',
+        //     data: [0, 2, 3, 1, 1]
+        // },
     
     ]
 },      

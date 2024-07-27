@@ -14,7 +14,7 @@ new Chart(ctx, {
       "Andhra Pradesh",
       "Tamil Nadu",
       "Kerala",
-      "Gujrat",
+      "Gujarat",
       "Karnataka",
       "Jharkhand",
       "Delhi-NCR",

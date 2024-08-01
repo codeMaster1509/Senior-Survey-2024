@@ -12,7 +12,7 @@ new Chart(ctx, {
     datasets: [
       {
         label: "No. of students",
-        data: [368,8,35],
+        data: [246,8,35],
         borderWidth: 1,
         backgroundColor: [
           // "#091D2C",

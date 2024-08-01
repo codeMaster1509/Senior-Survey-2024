@@ -110,82 +110,82 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // chart 3
 {
-    labels: ['Dissatisfied, it led me to opt out from the mess', 'Somewhat dissatisfied,  looked for excuses to eat outside', 'Neutral, I can eat whatever', 'Satisfied, preferred to eat in the mess', 'nan'],
+    labels: ['Dissatisfied, it led me to opt out from the mess', 'Somewhat dissatisfied,  looked for excuses to eat outside', 'Neutral, I can eat whatever', 'Satisfied, preferred to eat in the mess'],
     datasets: [
         {
             label: 'H10',
             backgroundColor: '#791647',
-            data: [0, 8, 1, 5, 0 ]
+            data: [0, 8, 1, 5 ]
         },
         {
             label: 'H11',
             backgroundColor: '#A4356C',
-            data: [2, 9, 1, 5, 0 ]
+            data: [2, 9, 1, 5]
         },
         {
             label: 'H12',
             backgroundColor: '#D270A0',
-            data: [ 0, 4, 5, 3, 0]
+            data: [ 0, 4, 5, 3]
         },
         {
             label: 'H13',
             backgroundColor: '#F9BEDB',
-            data: [0, 3, 2, 1, 0]
+            data: [0, 3, 2, 1]
         },
         {
             label: 'H14',
             backgroundColor: '#92235B',
-            data: [3, 2, 3, 3, 0]
+            data: [3, 2, 3, 3]
         },
         {
             label: 'H15',
             backgroundColor: '#BB5688',
-            data: [2, 17, 8, 3, 0]
+            data: [2, 17, 8, 3]
         },
         {
             label: 'H16',
             backgroundColor: '#E89EC3',
-            data: [0, 1, 0, 0, 0]
+            data: [0, 1, 0, 0]
         },
         {
             label: 'H17',
             backgroundColor: '#FCD9EA',
-            data: [1, 3, 7, 1, 0]
+            data: [1, 3, 7, 1]
         },
         {
             label: 'H18',
             backgroundColor: '#7E6508',
-            data: [4, 2, 8, 3, 0]
+            data: [4, 2, 8, 3]
         },
         {
             label: 'H2',
             backgroundColor: '#A88811',
-            data: [8, 10, 6, 3, 1]
+            data: [8, 10, 6, 3]
         },
         {
             label: 'H3',
             backgroundColor: '#D4B541',
-            data: [4, 15, 16, 4, 1]
+            data: [4, 15, 16, 4]
         },
         {
             label: 'H4',
             backgroundColor: '#F5D769',
-            data: [0, 4, 2, 1, 0]
+            data: [0, 4, 2, 1]
         },
         {
             label: 'H5',
             backgroundColor: '#FFEBA2',
-            data: [3, 12, 10, 5, 0]
+            data: [3, 12, 10, 5]
         },
         {
             label: 'H6',
             backgroundColor: '#C5A429',
-            data: [5, 20, 8, 3, 0]
+            data: [5, 20, 8, 3]
         },
         {
             label: 'H9',
             backgroundColor: '#E2C24E',
-            data: [2, 11, 8, 2, 0]
+            data: [2, 11, 8, 2]
         },
         // {
         //     label: 'nan',

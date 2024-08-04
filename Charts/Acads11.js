@@ -4,15 +4,16 @@ new Chart(ctx, {
   type: "pie",
   data: {
     labels: [
-      "Yes",
-      "No",
+      "Yes, the new currciculum aligns better with the industry needs",
+      "Yes, the courses like AI/DS are required by everone today",
+      "No, the old currciculum was good enough",
       "No Opinion",
       
     ],
     datasets: [
       {
         label: "No. of students",
-        data: [246,8,35],
+        data: [206,162,8,35],
         borderWidth: 1,
         backgroundColor: [
           // "#091D2C",
@@ -22,9 +23,9 @@ new Chart(ctx, {
           // "#295574",
           "#37617F",
           // "#4F7793",
-          // "#7092AA",
+          "#7092AA",
           // "#89A6BB",
-          "#A4BCCC",
+          // "#A4BCCC",
           "#C4D4E1",
         ],
       },

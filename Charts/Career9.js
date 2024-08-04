@@ -4,8 +4,8 @@ new Chart(ctx, {
   type: "pie",
   data: {
     labels: [
-      "Major factor",
       "Top priority",
+      "Major factor",
       "Moderate",
       "Minor factor",
       "Not a priority"
@@ -13,7 +13,7 @@ new Chart(ctx, {
     datasets: [
       {
         label: "No. of students",
-        data: [97,70,65,31,16],
+        data: [70,97,65,31,16],
         borderWidth: 1,
         backgroundColor: [
           // "#243818",

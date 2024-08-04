@@ -6,7 +6,6 @@ new Chart(ctx, {
     labels: [
       "No, I did not face any language barrier",
       "Initially, however, I got comfortable on my own",
-      "Yes",
       "Yes, but my friends, seniors and/or professors helped me",
       "Yes, and I still struggle with it",
       "institute initiatives like ELP, Ka Kha Ga, etc, helped me"

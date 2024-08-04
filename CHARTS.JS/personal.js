@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     label: 'CPI > 9',
                     backgroundColor: '#FCD9EA',
-                    data: [8, 59, 1]
+                    data: [8, 59, 0]
                 }
             ]
         },

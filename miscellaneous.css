@@ -181,6 +181,7 @@ body{
     margin: 0 auto; /* Center horizontally */
     padding: 5%;
     box-sizing: border-box;
+    text-align: center; /* Center text inside the container */
 }
 
 @media screen and (max-width: 960px){

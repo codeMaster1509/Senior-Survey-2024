@@ -8,8 +8,7 @@ new Chart(ctx, {
       "4.0",
       "3.0",
       "2.0",
-      "1.0",
-      "Not Answered"
+      "1.0"
     ],
     datasets: [
       {

@@ -173,6 +173,9 @@ body{
     /* padding: 0px 150px; */
     text-align: center;
 }
+.disclaimer{
+    margin-top: 50px;
+}
 #SeniorSurveyImage{
     width: 600px;
 }
@@ -186,7 +189,6 @@ body{
         font-style: normal;
     }
     align-items: center;
-/*     margin-bottom: 100px; */
 }
 
 /* .Disclaimer{
@@ -317,7 +319,7 @@ body{
     }
     
     .para1{
-        margin: 50px 50px 90px;
+        margin: 0px 50px 90px;
         text-align: center;
     }
     .sections{

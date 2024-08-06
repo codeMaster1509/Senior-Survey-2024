@@ -188,6 +188,13 @@ body{
     align-items: center;
 }
 
+.Disclaimer{
+    width: 40%;
+    border: 2px black solid;
+    padding: 30px 15px;
+    margin: 0 auto;
+}
+
 
 .footer{
     display: flex;

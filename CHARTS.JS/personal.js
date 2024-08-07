@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             data: [26, 38, 10, 7, 139 ]
                         },
                         {
-                            label: 'Male',
+                            label: 'Gender not choosen',
                             backgroundColor: '#350D20',
                             data: [1,0,0,0,0 ]
                         }

@@ -16,13 +16,14 @@ new Chart(ctx, {
       "H13",
       "H14",
       "H15",
+      "H16",
       "H17",
       "H18"
     ],
     datasets: [
       {
         label: "No. of students",
-        data: [28,40,7,30,36,23,14,17,12,6,11,30,12,17],
+        data: [28,40,7,30,36,23,14,17,12,6,11,30,1,12,17],
         borderWidth: 1,
         backgroundColor: [
           // "#382D07",

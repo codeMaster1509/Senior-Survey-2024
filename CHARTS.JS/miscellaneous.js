@@ -236,22 +236,22 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 label: '7 < CPI < 8',
                 backgroundColor: '#5B4907',
-                data: [37, 11, 14, 3, 3]
+                data: [37, 11, 14, 3, 7]
             },
             {
                 label: '8 < CPI < 9',
                 backgroundColor: '#A88811',
-                data: [46, 21, 22, 14, 14]
+                data: [46, 21, 22, 14, 3]
             },
             {
                 label: 'CPI < 7',
                 backgroundColor: '#E2C24E',
-                data: [18, 5, 9, 3, 3]
+                data: [18, 5, 9, 3, 4]
             },
             {
                 label: 'CPI > 9',
                 backgroundColor: '#FFEBA2',
-                data: [41, 14, 12, 2, 2]
+                data: [41, 14, 12, 2, 0]
             },
             {
                 label: 'CPI not choosen',

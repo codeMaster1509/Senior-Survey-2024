@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             label: 'Gender not choosen',
-            backgroundColor: '#791647',
+            backgroundColor: '#350D20',
             data: [1,0,0,0,0 ]
         }
 

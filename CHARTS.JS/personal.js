@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         {
                             label: 'Male',
                             backgroundColor: '#791647',
-                            data: [53, 136, 26, 10 ]
+                            data: [53, 137, 26, 10 ]
                         },
         
                     ]

@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 label: 'CPI not choosen',
-                backgroundColor: '#FFEEAE',
+                backgroundColor: '#937B26',
                 data: [1 , 1]
             }
         ]

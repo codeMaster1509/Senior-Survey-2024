@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     label: 'Chemical Engineering',
                     backgroundColor: '#6C92AE',
-                    data: [6, 5, 6, 24]
+                    data: [6, 5, 6, 4]
                 },
                 
                 {
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     label: 'Metallurgical Engineering & Materials Science',
                     backgroundColor: '#4B8428',
-                    data: [4, 14, 5, 2]
+                    data: [4, 4, 5, 2]
                 },
                 {
                     label: 'Other',

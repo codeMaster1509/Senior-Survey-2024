@@ -41,17 +41,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     label: '8 < CPI < 9',
                     backgroundColor: '#427524',
-                    data: [10, 4, 5, 0, 7, 5, 27, 1, 18, 7, 25]
+                    data: [10, 5, 5, 0, 7, 6, 27, 1, 16, 7, 25]
                 },
                 {
                     label: 'CPI < 7',
                     backgroundColor: '#639942',
-                    data: [3, 2, 0, 3, 0, 11, 6, 2, 2, 5, 6]
+                    data: [3, 2, 0, 3, 0, 12, 6, 2, 2, 5, 6]
                 },
                 {
                     label: 'CPI > 9',
                     backgroundColor: '#beff98',
-                    data: [1, 4, 0, 0, 10, 2, 20, 1, 11, 1, 19]
+                    data: [1, 5, 0, 0, 10, 2, 20, 1, 10, 1, 19]
                 }
             ]
         },

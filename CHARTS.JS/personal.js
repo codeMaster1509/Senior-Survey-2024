@@ -126,8 +126,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         {
                             label: 'Male',
                             backgroundColor: '#791647',
-                            data: [26, 38, 10, 4, 139 ]
+                            data: [26, 38, 10, 7, 139 ]
                         },
+                        {
+                            label: 'Male',
+                            backgroundColor: '#350D20',
+                            data: [1,0,0,0,0 ]
+                        }
         
                     ]
                 },      

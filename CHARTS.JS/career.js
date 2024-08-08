@@ -169,6 +169,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     label: 'CPI > 9',
                     backgroundColor: '#beff98',
                     data: [21,15,20,20,13,13,13,13,19,19,6,6]
+                },
+                {
+                    label: 'CPI not choosen',
+                    backgroundColor: '#3C6522',
+                    data: [0,1,2,2,0,0,0,0,0,0,0,0]
                 }
             ]
         }   

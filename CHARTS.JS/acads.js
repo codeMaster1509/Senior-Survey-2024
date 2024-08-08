@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     label: 'Computer Science & Engineering',
                     backgroundColor: '#0C3654',
-                    data: [20, 4, 14, 4]
+                    data: [20, 4, 4, 4]
                 },
                 
                 {
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     label: 'Metallurgical Engineering & Materials Science',
                     backgroundColor: '#4B8428',
-                    data: [3, 16, 1, 5]
+                    data: [3, 6, 1, 5]
                 },
                 {
                     label: 'Other',
